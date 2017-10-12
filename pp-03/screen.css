@@ -28,6 +28,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* ==== LAYOUT STYLES ==== */
 #content {
+  float: none;
   display: flex;
   flex-flow: wrap;
 }
