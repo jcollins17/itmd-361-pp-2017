@@ -4,7 +4,7 @@ $(document).ready(function(){
     var doorbell = new Audio('media/doorbell.mp3');
     doorbell.play();
 }
-$("#RINGYOUMOTHERFUCKER").on("click",function(){
+$("#RINGYOUMOTHERFUCKER").click(function(){
   ringDoorbell();
 });
-}
+});
